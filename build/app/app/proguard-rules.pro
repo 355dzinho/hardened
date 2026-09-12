@@ -1,0 +1,8 @@
+-keep class com.anon.stub.StubActivity { *; }
+-keep class com.anon.stub.NativeCrypto { *; }
+-keepclasseswithmembernames class * { native <methods>; }
+-keepattributes SourceFile,LineNumberTable
+-renamesourcefileattribute S
+-dontwarn kotlin.**
+-dontwarn androidx.**
+-assumenosideeffects class kotlin.Metadata { public *** *(...); }
